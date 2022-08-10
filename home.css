@@ -1,0 +1,171 @@
+.flexbox, .flexbox2, .flexbox3, .text,
+.shop-now {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+p {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background-color: rgb(116,129,91);
+}
+.logo {
+  width: 200px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+.search-box {
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 500px;
+  height: 25px;
+  border-radius: 25px;
+  border: none;
+  padding: 7px 12px;
+  margin-top: 60px;  
+  margin-left: 100px;
+}
+.search-button {
+  margin-left: 8px;
+  margin-bottom: 20px;
+  background-color: rgb(89,68,51);
+  padding: 8px 12px;
+  border-radius: 24px;
+  margin-top: 80px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.search-button:hover {
+  padding: 10px 14px;
+}
+.search-button:active {
+  background-color: rgb(4,38,8);
+}
+.home-link {
+  margin-left: 200px;
+}
+.icon {
+  color: rgb(89,68,51);
+  transition: 0.2s;
+  font-size: 40px;
+  margin-top: 65px;
+  margin-right: 25px;
+}
+.icon:hover {
+  color: rgb(4,38,8);
+}
+.background {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.text {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: white;
+  font-size: 40px;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 300;
+  min-width: 300px;
+}
+.shop-now {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  min-width: 50px;
+}
+.start-shopping {
+  padding: 15px 25px;
+  font-family: 'Gothic A1', sans-serif;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.start-shopping:hover {
+  background-color: white;
+  color: black;
+}
+.products-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  width: 1500px;
+  margin-right: 0px;
+  margin-top: 35px;
+}
+.products-pic {
+  width: 300px;
+  object-fit: cover;
+}
+.product-type {
+  position: relative;
+  bottom: 10%;
+  left: 5%;
+}
+.type-link {
+  color: antiquewhite;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Gothic A1', sans-serif;
+  transition: 0.2s;
+}
+.type-link:hover {
+  opacity: 0.7;
+}
+.flexbox3 {
+  margin-top: 2px;
+  background-color: rgb(89,68,51);
+  margin-bottom: 0px;
+}
+.about {
+  width: 500px;
+  color: antiquewhite;
+  line-height: 25px;
+  margin-right: 300px;
+  margin-left: 20px;
+}
+.quick-text {
+  margin-bottom: 0px;
+  margin-left: 20px;
+  color: antiquewhite;
+}
+.links-list {
+  line-height: 25px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+a:hover {
+  color: burlywood;
+}
+.our-products {
+  margin-left: 80px;
+  color: antiquewhite;
+}
+.products-list {
+  line-height: 25px;
+  margin-left: 60px;
+}
+.socials-text {
+  margin-left: 80px;
+  color: antiquewhite;
+}
+.socials-list {
+  line-height: 42px;
+  margin-left: 60px;
+}
